@@ -1,0 +1,850 @@
+body {
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+}
+
+
+/* heading */
+
+nav {
+    width: 100%;
+    height: 100px;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 150px;
+    color: gray;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+}
+
+li {
+    float: left;
+    width: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+ul li a button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* headingend */
+
+
+/* frontpage  */
+
+.frontpage {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 100px 200px 0px 200px;
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f5f9;
+    height: 500px;
+}
+
+.frontpage .frontpageleft {
+    float: left;
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.frontpage img {
+    float: left;
+    width: 50%;
+}
+
+.frontpageleft h3 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.frontpage h2 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.frontpage .notice {
+    margin: 0px;
+    font-size: 13px;
+    color: #818198;
+    font-weight: bolder;
+    clear: both;
+}
+
+.frontpage .bottondiv {
+    width: 100%;
+    margin: auto;
+    margin: 0;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.frontpage .bottondiv button {
+    height: 40px;
+    width: 35%;
+    float: left;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.btn1color {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+.btncolor2 {
+    background-color: #21bf73;
+    color: #FFFFFF;
+    border: 2px solid #21bf73;
+}
+
+
+/* frontpage end */
+
+
+/* layout */
+
+.layoutdiv {
+    width: 80%;
+    padding: 20px 50px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 600px;
+}
+
+.layoutdiv .layoutfirstline {
+    color: #21bf73 !important;
+    clear: both;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.layoutdiv h4 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.layoutdiv .layoutparadiv {
+    margin-top: 10px;
+}
+
+.layoutdiv .layoutparatxt {
+    margin: 0;
+    font-size: 15px;
+    color: #818198;
+    font-weight: bolder;
+    line-height: 1.7;
+}
+
+.layoutframe {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.layoutbox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10PX;
+}
+
+.layoutsubbox {
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.layoutsubbox img {
+    width: 100px;
+    height: 100px;
+}
+
+.layoutsubbox h5 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.layoutsubbox p {
+    font-size: 15px;
+    color: #818198;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.backgroundlayout1 {
+    background: #fff2e5;
+}
+
+.backgroundlayout2 {
+    background: #f8f9fa;
+}
+
+.backgroundlayout3 {
+    background: #f0f5f9;
+}
+
+
+/* layoutend */
+
+
+/* datasharing */
+
+.datasharing {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    clear: both;
+    background-color: #f0f5f9;
+}
+
+.datasharingframe {
+    width: 100%;
+    height: 350px;
+    padding-left: 30px;
+}
+
+.datasharingframe img {
+    float: left;
+    width: 40%;
+    height: 250px;
+}
+
+.datasharing .datadescription {
+    float: left;
+    width: 60%;
+    height: 350px;
+}
+
+.datadescription h5 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.datadescription .paragragraph {
+    margin: 0;
+    font-size: 20px;
+    color: #818198;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.datasharing nav {
+    height: 300px;
+    width: 100px;
+    float: right;
+}
+
+.datadescription nav ul {}
+
+.datadescription nav ul li {
+    float: none;
+    width: 300px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.datadescription nav ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.datadescription nav ul li a {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+/* datashringend */
+
+
+/* ourresults */
+
+.ourresultsdiv {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ourresultsdiv img {
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.ourresultsdiv h5 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.ourresultsdiv h6 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #383B61;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.ourresultsdiv .ourresultframe {
+    width: 100%;
+}
+
+.ourresultframe .resultbox {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.ourresultframe .resultsubbox {
+    width: 100%;
+}
+
+.resultsubbox h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #383B61;
+    margin: 0;
+    margin: 10px 0px 10px 0px;
+}
+
+.resultsubbox p {
+    color: #ABAFB3;
+    font-weight: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/* ourresultend */
+
+
+/* customer stories */
+
+.customerstories {
+    width: 80%;
+    background-color: #f0f5f9;
+    height: 250px;
+    margin: auto;
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+.customerstoriesboxleft {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.customerstoriesboxleft h2 {
+    margin: 0px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #383B61;
+}
+
+.customerstoriesboxleft p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6A7076;
+    line-height: 1.6;
+}
+
+.customerstoriesboxright {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+.customerstoriesboxright img {
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+.customerstoriesboxright h3 {
+    margin: 0;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6A7076;
+    line-height: 1.2;
+    margin-top: 15px
+}
+
+.customerstoriesboxright .customerdetails {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.customerdetails img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+
+.customername {
+    float: left;
+    padding-left: 10px;
+}
+
+.customername h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #161851;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.customername p {
+    margin: 0;
+    font-size: 16px;
+    color: #3498db;
+}
+
+.customername p span {
+    color: #161851;
+    font-size: 16px;
+}
+
+
+/* customerdetailsend */
+
+
+/* pricing */
+
+.pricing {
+    width: 60%;
+    height: 650px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+
+.pricingframe {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pricingbox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.pricingsubbox {
+    width: 100%;
+    background-color: #f0f5f9;
+    text-align: center;
+    height: 420px;
+}
+
+.pricebutton {
+    height: 40px;
+    width: 35%;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.pricing h4 {
+    margin: 0;
+    font-size: 28px;
+    color: #3a3a47;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pricing p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ABAFB3;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.pricingsubbox h2 {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a3a47;
+    padding-top: 30px;
+}
+
+.pricingsubbox p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ABAFB3;
+    margin: 0;
+}
+
+.pricingsubbox img {
+    height: 100px;
+    width: 100px;
+}
+
+.pricingsubbox h3 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #505050;
+    margin: 30px 0px 0px 0px;
+}
+
+.pricingsubbox h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #505050;
+    margin: 10px 0px 20px 0px;
+}
+
+
+/* pricingend */
+
+
+/* queries */
+
+.queries {
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f5f9;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.queriesframe {
+    width: 100%;
+}
+
+.queriesframe .queriesbox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.queriesframe .queriessubbox {
+    width: 100%;
+}
+
+.queriessubbox .textbox {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.55);
+    padding: 0px 10px;
+    border: none;
+    box-sizing: border-box;
+    background: #f0f5f9;
+    border-bottom: 2px solid rgba(0, 0, 0, .03)
+}
+
+.queries h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3a3a47;
+    margin-bottom: 20px;
+}
+
+.queries p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #6A7076;
+    line-height: 0.5;
+}
+
+.queries h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #6A7076;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.queriessubbox p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #6A7076;
+    margin-top: 50px;
+}
+
+
+/* qurriesend */
+
+
+/* trial */
+
+.trial {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.trial p {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #21bf73;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.trial h2 {
+    margin: 0;
+    font-size: 34px;
+    font-weight: bold;
+    color: #383B61
+}
+
+.trial .trialtextbox {
+    color: #222222;
+    font-size: 14px;
+    font-weight: bold;
+    height: 45px;
+    border-radius: 5px 0 0 5px;
+    background-color: #F0F5F8;
+    padding: 0 75px 0 20px;
+    border: none;
+    box-shadow: 0 5px 30px rgb(255 255 255 / 10%);
+}
+
+.trialbutton {
+    height: 45px;
+    width: 25%;
+    margin-top: 50px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+/* trialend */
+
+.footer {
+    width: 100%;
+    height: 50px;
+}
+
+.footer nav {
+    width: 80%;
+}
+
+.footer nav h1 {
+    padding-left: 20px;
+    color: #21bf73;
+}
+
+.footericon {
+    display: inline-block;
+    float: right;
+    right: -50px;
+}
+
+.footericon i {
+    color: #21bf73;
+    font-size: 30px;
+    margin: 7px;
+    float: left;
+}
+
+
+/* footerend */
+
+@media screen and (max-width:426px) {
+    ul {
+        display: none;
+    }
+    nav h1 {
+        padding-left: 10px;
+    }
+    .frontpage {
+        width: 100% !important;
+        padding: 0;
+        height: 500px;
+        text-align: center;
+    }
+    .frontpage h3 {
+        width: 100%;
+        height: 20px;
+    }
+    .frontpageleft h2 {
+        padding: 0px 30px;
+        font-size: 27px;
+    }
+    .frontpageleft {
+        float: none;
+        text-align: center;
+        float: left;
+        width: 100% !important;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .frontpageleft .buttondiv button {
+        width: 200px;
+        float: none !important;
+        margin: 40px !important;
+    }
+    .frontpage img {
+        float: none;
+        width: 100%;
+        position: static;
+        top: -50px;
+    }
+    .layoutdiv {
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 50px;
+    }
+    .layoutbox {
+        width: 100%;
+    }
+    .layoutparatxt {
+        font-size: 12px !important;
+    }
+    .datasharing {
+        width: 100% !important;
+        margin-left: 20px;
+        height: 900px;
+    }
+    .datasharingframe {
+        padding: 0px;
+        width: 100%;
+    }
+    .datasharingframe img {
+        width: 100%;
+        float: none;
+    }
+    .datadescription {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .resultbox {
+        width: 50% !important;
+    }
+    .ourresultsdiv {
+        height: 700px;
+    }
+    .customerstories {
+        width: 100%;
+        height: 600px;
+    }
+    .customerstoriesboxleft {
+        width: 100%;
+        float: none;
+    }
+    .customerstoriesboxright {
+        width: 100%;
+        float: none;
+        padding-top: 50px;
+    }
+    .customerstoriesboxright h3 {
+        line-height: 1.6;
+    }
+    .pricing {
+        width: 100%;
+        height: 1200px;
+    }
+    .pricingbox {
+        width: 100%;
+    }
+    .queries {
+        width: 100%;
+        height: 800px;
+        padding: 0px;
+        padding-top: 50px;
+    }
+    .queries p {
+        line-height: 1.5;
+        padding: 0;
+    }
+    .queriesbox {
+        width: 100% !important;
+    }
+    .trial {
+        height: 280px;
+    }
+    .trial h2 {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .trial .trialtextbox {
+        margin-top: 50px;
+    }
+    .trialbutton {
+        margin-top: 20px;
+        width: 200px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer nav h1 {
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+    }
+    .footer nav ul {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .footer ul li {
+        width: 70px;
+    }
+    .footer ul li a {}
+    .content {
+        width: 80%;
+        margin: auto;
+    }
+}
